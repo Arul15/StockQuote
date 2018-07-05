@@ -10,6 +10,7 @@ target 'CentizenStockQuote' do
         pod 'SVProgressHUD'
         use_frameworks!
 
+
   target 'CentizenStockQuoteTests' do
     inherit! :search_paths
     # Pods for testing

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		00BBDC768614DF6ED67DFE3E /* Pods_CentizenStockQuote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50DA0FF5AF24E73C176BC473 /* Pods_CentizenStockQuote.framework */; };
 		11383B35EF07CC06FAAF7BE4 /* Pods_CentizenStockQuoteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 541E9ACF7FC3BC1E433D0BB6 /* Pods_CentizenStockQuoteTests.framework */; };
+		8B53635320EE1711005007A7 /* StockQuoteDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B53635220EE1711005007A7 /* StockQuoteDetail.swift */; };
+		8B53635520EE48F5005007A7 /* StockQuoteDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B53635420EE48F5005007A7 /* StockQuoteDetailCell.swift */; };
 		8B756A0220EA3C240002CFB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B756A0120EA3C240002CFB6 /* AppDelegate.swift */; };
 		8B756A0420EA3C240002CFB6 /* StockListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B756A0320EA3C240002CFB6 /* StockListController.swift */; };
 		8B756A0720EA3C240002CFB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B756A0520EA3C240002CFB6 /* Main.storyboard */; };
@@ -38,6 +40,8 @@
 		50284DFBD5D46B093C595B44 /* Pods-CentizenStockQuoteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CentizenStockQuoteTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CentizenStockQuoteTests/Pods-CentizenStockQuoteTests.debug.xcconfig"; sourceTree = "<group>"; };
 		50DA0FF5AF24E73C176BC473 /* Pods_CentizenStockQuote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CentizenStockQuote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		541E9ACF7FC3BC1E433D0BB6 /* Pods_CentizenStockQuoteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CentizenStockQuoteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B53635220EE1711005007A7 /* StockQuoteDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockQuoteDetail.swift; sourceTree = "<group>"; };
+		8B53635420EE48F5005007A7 /* StockQuoteDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockQuoteDetailCell.swift; sourceTree = "<group>"; };
 		8B7569FE20EA3C240002CFB6 /* CentizenStockQuote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CentizenStockQuote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B756A0120EA3C240002CFB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B756A0320EA3C240002CFB6 /* StockListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListController.swift; sourceTree = "<group>"; };
@@ -136,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				8B756A2520ED09C40002CFB6 /* StockQuote.swift */,
+				8B53635220EE1711005007A7 /* StockQuoteDetail.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				8B756A2D20ED22B50002CFB6 /* StockQuoteCell.swift */,
+				8B53635420EE48F5005007A7 /* StockQuoteDetailCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -338,7 +344,9 @@
 				8B756A0420EA3C240002CFB6 /* StockListController.swift in Sources */,
 				8B756A0220EA3C240002CFB6 /* AppDelegate.swift in Sources */,
 				8B756A2620ED09C40002CFB6 /* StockQuote.swift in Sources */,
+				8B53635320EE1711005007A7 /* StockQuoteDetail.swift in Sources */,
 				8B756A0A20EA3C240002CFB6 /* CentizenStockQuote.xcdatamodeld in Sources */,
+				8B53635520EE48F5005007A7 /* StockQuoteDetailCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
