@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00BBDC768614DF6ED67DFE3E /* Pods_CentizenStockQuote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50DA0FF5AF24E73C176BC473 /* Pods_CentizenStockQuote.framework */; };
+		11383B35EF07CC06FAAF7BE4 /* Pods_CentizenStockQuoteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 541E9ACF7FC3BC1E433D0BB6 /* Pods_CentizenStockQuoteTests.framework */; };
+		8B756A0220EA3C240002CFB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B756A0120EA3C240002CFB6 /* AppDelegate.swift */; };
+		8B756A0420EA3C240002CFB6 /* StockListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B756A0320EA3C240002CFB6 /* StockListController.swift */; };
+		8B756A0720EA3C240002CFB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B756A0520EA3C240002CFB6 /* Main.storyboard */; };
+		8B756A0A20EA3C240002CFB6 /* CentizenStockQuote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B756A0820EA3C240002CFB6 /* CentizenStockQuote.xcdatamodeld */; };
+		8B756A0C20EA3C240002CFB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B756A0B20EA3C240002CFB6 /* Assets.xcassets */; };
+		8B756A0F20EA3C240002CFB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B756A0D20EA3C240002CFB6 /* LaunchScreen.storyboard */; };
+		8B756A1A20EA3C250002CFB6 /* CentizenStockQuoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B756A1920EA3C250002CFB6 /* CentizenStockQuoteTests.swift */; };
+		8B756A2620ED09C40002CFB6 /* StockQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B756A2520ED09C40002CFB6 /* StockQuote.swift */; };
+		8B756A2920ED0BCF0002CFB6 /* StockDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B756A2820ED0BCF0002CFB6 /* StockDetailViewController.swift */; };
+		8B756A2B20ED15900002CFB6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B756A2A20ED15900002CFB6 /* LoginViewController.swift */; };
+		8B756A2E20ED22B50002CFB6 /* StockQuoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B756A2D20ED22B50002CFB6 /* StockQuoteCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B756A1620EA3C250002CFB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B7569F620EA3C240002CFB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B7569FD20EA3C240002CFB6;
+			remoteInfo = CentizenStockQuote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C1F705CB1269C27FFC6A6BE /* Pods-CentizenStockQuote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CentizenStockQuote.release.xcconfig"; path = "Pods/Target Support Files/Pods-CentizenStockQuote/Pods-CentizenStockQuote.release.xcconfig"; sourceTree = "<group>"; };
+		48FFAD143693C3FBB9E9063E /* Pods-CentizenStockQuote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CentizenStockQuote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CentizenStockQuote/Pods-CentizenStockQuote.debug.xcconfig"; sourceTree = "<group>"; };
+		50284DFBD5D46B093C595B44 /* Pods-CentizenStockQuoteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CentizenStockQuoteTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CentizenStockQuoteTests/Pods-CentizenStockQuoteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		50DA0FF5AF24E73C176BC473 /* Pods_CentizenStockQuote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CentizenStockQuote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		541E9ACF7FC3BC1E433D0BB6 /* Pods_CentizenStockQuoteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CentizenStockQuoteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B7569FE20EA3C240002CFB6 /* CentizenStockQuote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CentizenStockQuote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B756A0120EA3C240002CFB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B756A0320EA3C240002CFB6 /* StockListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListController.swift; sourceTree = "<group>"; };
+		8B756A0620EA3C240002CFB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B756A0920EA3C240002CFB6 /* CentizenStockQuote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CentizenStockQuote.xcdatamodel; sourceTree = "<group>"; };
+		8B756A0B20EA3C240002CFB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B756A0E20EA3C240002CFB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B756A1020EA3C250002CFB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B756A1520EA3C250002CFB6 /* CentizenStockQuoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CentizenStockQuoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B756A1920EA3C250002CFB6 /* CentizenStockQuoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentizenStockQuoteTests.swift; sourceTree = "<group>"; };
+		8B756A1B20EA3C250002CFB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B756A2520ED09C40002CFB6 /* StockQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockQuote.swift; sourceTree = "<group>"; };
+		8B756A2820ED0BCF0002CFB6 /* StockDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailViewController.swift; sourceTree = "<group>"; };
+		8B756A2A20ED15900002CFB6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8B756A2D20ED22B50002CFB6 /* StockQuoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockQuoteCell.swift; sourceTree = "<group>"; };
+		E6ED9288C3D08E8DEC8C6F76 /* Pods-CentizenStockQuoteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CentizenStockQuoteTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CentizenStockQuoteTests/Pods-CentizenStockQuoteTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B7569FB20EA3C240002CFB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00BBDC768614DF6ED67DFE3E /* Pods_CentizenStockQuote.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B756A1220EA3C250002CFB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11383B35EF07CC06FAAF7BE4 /* Pods_CentizenStockQuoteTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AB47342D4BEA87603F6099A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48FFAD143693C3FBB9E9063E /* Pods-CentizenStockQuote.debug.xcconfig */,
+				2C1F705CB1269C27FFC6A6BE /* Pods-CentizenStockQuote.release.xcconfig */,
+				50284DFBD5D46B093C595B44 /* Pods-CentizenStockQuoteTests.debug.xcconfig */,
+				E6ED9288C3D08E8DEC8C6F76 /* Pods-CentizenStockQuoteTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B7569F520EA3C240002CFB6 = {
+			isa = PBXGroup;
+			children = (
+				8B756A0020EA3C240002CFB6 /* CentizenStockQuote */,
+				8B756A1820EA3C250002CFB6 /* CentizenStockQuoteTests */,
+				8B7569FF20EA3C240002CFB6 /* Products */,
+				4AB47342D4BEA87603F6099A /* Pods */,
+				F799271445EE9CBBB4FB159E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8B7569FF20EA3C240002CFB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B7569FE20EA3C240002CFB6 /* CentizenStockQuote.app */,
+				8B756A1520EA3C250002CFB6 /* CentizenStockQuoteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B756A0020EA3C240002CFB6 /* CentizenStockQuote */ = {
+			isa = PBXGroup;
+			children = (
+				8B756A2C20ED228A0002CFB6 /* View */,
+				8B756A2720ED0B830002CFB6 /* Controller */,
+				8B756A2420ED09A40002CFB6 /* Model */,
+				8B756A0120EA3C240002CFB6 /* AppDelegate.swift */,
+				8B756A0520EA3C240002CFB6 /* Main.storyboard */,
+				8B756A0B20EA3C240002CFB6 /* Assets.xcassets */,
+				8B756A0D20EA3C240002CFB6 /* LaunchScreen.storyboard */,
+				8B756A1020EA3C250002CFB6 /* Info.plist */,
+				8B756A0820EA3C240002CFB6 /* CentizenStockQuote.xcdatamodeld */,
+			);
+			path = CentizenStockQuote;
+			sourceTree = "<group>";
+		};
+		8B756A1820EA3C250002CFB6 /* CentizenStockQuoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B756A1920EA3C250002CFB6 /* CentizenStockQuoteTests.swift */,
+				8B756A1B20EA3C250002CFB6 /* Info.plist */,
+			);
+			path = CentizenStockQuoteTests;
+			sourceTree = "<group>";
+		};
+		8B756A2420ED09A40002CFB6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B756A2520ED09C40002CFB6 /* StockQuote.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B756A2720ED0B830002CFB6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8B756A0320EA3C240002CFB6 /* StockListController.swift */,
+				8B756A2820ED0BCF0002CFB6 /* StockDetailViewController.swift */,
+				8B756A2A20ED15900002CFB6 /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8B756A2C20ED228A0002CFB6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B756A2D20ED22B50002CFB6 /* StockQuoteCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F799271445EE9CBBB4FB159E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50DA0FF5AF24E73C176BC473 /* Pods_CentizenStockQuote.framework */,
+				541E9ACF7FC3BC1E433D0BB6 /* Pods_CentizenStockQuoteTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B7569FD20EA3C240002CFB6 /* CentizenStockQuote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B756A1E20EA3C250002CFB6 /* Build configuration list for PBXNativeTarget "CentizenStockQuote" */;
+			buildPhases = (
+				DC2F38D94960B70983702D67 /* [CP] Check Pods Manifest.lock */,
+				8B7569FA20EA3C240002CFB6 /* Sources */,
+				8B7569FB20EA3C240002CFB6 /* Frameworks */,
+				8B7569FC20EA3C240002CFB6 /* Resources */,
+				6C694A57588643D8D6516D40 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CentizenStockQuote;
+			productName = CentizenStockQuote;
+			productReference = 8B7569FE20EA3C240002CFB6 /* CentizenStockQuote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B756A1420EA3C250002CFB6 /* CentizenStockQuoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B756A2120EA3C250002CFB6 /* Build configuration list for PBXNativeTarget "CentizenStockQuoteTests" */;
+			buildPhases = (
+				7794249C8780D760F375D19B /* [CP] Check Pods Manifest.lock */,
+				8B756A1120EA3C250002CFB6 /* Sources */,
+				8B756A1220EA3C250002CFB6 /* Frameworks */,
+				8B756A1320EA3C250002CFB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B756A1720EA3C250002CFB6 /* PBXTargetDependency */,
+			);
+			name = CentizenStockQuoteTests;
+			productName = CentizenStockQuoteTests;
+			productReference = 8B756A1520EA3C250002CFB6 /* CentizenStockQuoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B7569F620EA3C240002CFB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Shanmuganathan, Arulpandiyan (Chennai)";
+				TargetAttributes = {
+					8B7569FD20EA3C240002CFB6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8B756A1420EA3C250002CFB6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B7569FD20EA3C240002CFB6;
+					};
+				};
+			};
+			buildConfigurationList = 8B7569F920EA3C240002CFB6 /* Build configuration list for PBXProject "CentizenStockQuote" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B7569F520EA3C240002CFB6;
+			productRefGroup = 8B7569FF20EA3C240002CFB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B7569FD20EA3C240002CFB6 /* CentizenStockQuote */,
+				8B756A1420EA3C250002CFB6 /* CentizenStockQuoteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B7569FC20EA3C240002CFB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B756A0F20EA3C240002CFB6 /* LaunchScreen.storyboard in Resources */,
+				8B756A0C20EA3C240002CFB6 /* Assets.xcassets in Resources */,
+				8B756A0720EA3C240002CFB6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B756A1320EA3C250002CFB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C694A57588643D8D6516D40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CentizenStockQuote/Pods-CentizenStockQuote-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CentizenStockQuote/Pods-CentizenStockQuote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7794249C8780D760F375D19B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CentizenStockQuoteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC2F38D94960B70983702D67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CentizenStockQuote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B7569FA20EA3C240002CFB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B756A2B20ED15900002CFB6 /* LoginViewController.swift in Sources */,
+				8B756A2920ED0BCF0002CFB6 /* StockDetailViewController.swift in Sources */,
+				8B756A2E20ED22B50002CFB6 /* StockQuoteCell.swift in Sources */,
+				8B756A0420EA3C240002CFB6 /* StockListController.swift in Sources */,
+				8B756A0220EA3C240002CFB6 /* AppDelegate.swift in Sources */,
+				8B756A2620ED09C40002CFB6 /* StockQuote.swift in Sources */,
+				8B756A0A20EA3C240002CFB6 /* CentizenStockQuote.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B756A1120EA3C250002CFB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B756A1A20EA3C250002CFB6 /* CentizenStockQuoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B756A1720EA3C250002CFB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B7569FD20EA3C240002CFB6 /* CentizenStockQuote */;
+			targetProxy = 8B756A1620EA3C250002CFB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B756A0520EA3C240002CFB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B756A0620EA3C240002CFB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B756A0D20EA3C240002CFB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B756A0E20EA3C240002CFB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B756A1C20EA3C250002CFB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B756A1D20EA3C250002CFB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B756A1F20EA3C250002CFB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48FFAD143693C3FBB9E9063E /* Pods-CentizenStockQuote.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CentizenStockQuote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mine.CentizenStockQuote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B756A2020EA3C250002CFB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C1F705CB1269C27FFC6A6BE /* Pods-CentizenStockQuote.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CentizenStockQuote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mine.CentizenStockQuote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B756A2220EA3C250002CFB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50284DFBD5D46B093C595B44 /* Pods-CentizenStockQuoteTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CentizenStockQuoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mine.CentizenStockQuoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CentizenStockQuote.app/CentizenStockQuote";
+			};
+			name = Debug;
+		};
+		8B756A2320EA3C250002CFB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6ED9288C3D08E8DEC8C6F76 /* Pods-CentizenStockQuoteTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CentizenStockQuoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mine.CentizenStockQuoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CentizenStockQuote.app/CentizenStockQuote";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B7569F920EA3C240002CFB6 /* Build configuration list for PBXProject "CentizenStockQuote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B756A1C20EA3C250002CFB6 /* Debug */,
+				8B756A1D20EA3C250002CFB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B756A1E20EA3C250002CFB6 /* Build configuration list for PBXNativeTarget "CentizenStockQuote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B756A1F20EA3C250002CFB6 /* Debug */,
+				8B756A2020EA3C250002CFB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B756A2120EA3C250002CFB6 /* Build configuration list for PBXNativeTarget "CentizenStockQuoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B756A2220EA3C250002CFB6 /* Debug */,
+				8B756A2320EA3C250002CFB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8B756A0820EA3C240002CFB6 /* CentizenStockQuote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8B756A0920EA3C240002CFB6 /* CentizenStockQuote.xcdatamodel */,
+			);
+			currentVersion = 8B756A0920EA3C240002CFB6 /* CentizenStockQuote.xcdatamodel */;
+			path = CentizenStockQuote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8B7569F620EA3C240002CFB6 /* Project object */;
+}

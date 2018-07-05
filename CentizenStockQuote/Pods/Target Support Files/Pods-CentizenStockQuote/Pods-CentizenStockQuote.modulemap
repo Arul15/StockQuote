@@ -1,0 +1,6 @@
+framework module Pods_CentizenStockQuote {
+  umbrella header "Pods-CentizenStockQuote-umbrella.h"
+
+  export *
+  module * { export * }
+}
